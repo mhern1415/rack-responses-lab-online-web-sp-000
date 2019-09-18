@@ -5,7 +5,7 @@ class Application
  
    
  
-    if time =
+    if time.now 
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
