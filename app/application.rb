@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
  
    
-    binding.pry
+    
     if time.now 
       resp.write "Good Morning!"
     else
